@@ -60,3 +60,29 @@ EOF
 %{_bindir}/slregister
 %{_datadir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
+
+
+%changelog
+* Thu Jan 12 2012 Andrey Bondrov <abondrov@mandriva.org> 1.6.18-1mdv2011.0
++ Revision: 760473
+- New version 1.6.18, build against utf8 wxGTK2.8, spec cleanup
+
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 1.6.14-2mdv2011.0
++ Revision: 614944
+- the mass rebuild of 2010.1 packages
+
+* Sun Apr 11 2010 Frank Kober <emuse@mandriva.org> 1.6.14-1mdv2010.1
++ Revision: 533598
+- new version 1.6.14, update url, add desktop file
+- restablish sooperlooper
+
+  + Guillaume Rousse <guillomovitch@mandriva.org>
+    - old directory, without matching package
+
+* Fri Apr 17 2009 Olivier Thauvin <nanardon@mandriva.org> 1.6.13-1mdv2009.1
++ Revision: 367944
+- import sooperlooper
+
+
+* Sat Apr 17 2009 Romain Dep. <rom1dep@gmail.com> 1.6.13-1mdv2009.1
+- initial package for Mandriva Linux
