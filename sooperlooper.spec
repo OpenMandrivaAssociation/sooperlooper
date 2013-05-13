@@ -10,10 +10,10 @@ BuildRequires:	fftw3-devel
 BuildRequires:	libsigc++1.2-devel
 BuildRequires:	sndfile-devel
 BuildRequires:	rubberband-devel
-BuildRequires:	libsamplerate-devel
+BuildRequires:	pkgconfig(samplerate)
 BuildRequires:	jackit-devel
-BuildRequires:	liblo-devel
-BuildRequires:	libxml2-devel
+BuildRequires:	pkgconfig(liblo)
+BuildRequires:	pkgconfig(libxml-2.0)
 BuildRequires:	ncurses-devel
 BuildRequires:	wxgtku-devel
 
