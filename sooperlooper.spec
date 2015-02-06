@@ -1,6 +1,6 @@
 Name:		sooperlooper
 Version:	1.6.18
-Release:	2
+Release:	3
 Summary:	Live audio looper
 URL:		http://sonosaurus.com/%{name}
 Source:		http://sonosaurus.com/%{name}/%{name}-%{version}.tar.gz
